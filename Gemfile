@@ -10,6 +10,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.3.0'
+gem 'omniauth'
+gem 'omniauth-facebook' 
 
 
 
