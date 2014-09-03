@@ -11,13 +11,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
 gem 'devise', '~> 3.3.0'
 gem 'omniauth'
-<<<<<<< HEAD
 gem 'omniauth-twitter'
 gem 'omniauth-facebook'
 gem 'omniauth-linkedin'
-=======
-gem 'omniauth-facebook' 
->>>>>>> 7812b96b22d2c928c78e330cb8aa67946a445c04
 
 
 
