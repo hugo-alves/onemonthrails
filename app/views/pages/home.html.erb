@@ -1,5 +1,6 @@
 <div class="jumbotron center">
 	<h1>Welcome to my app</h1>
+<<<<<<< HEAD
 
 	<% if user_signed_in? %>
 	#do something
@@ -11,5 +12,12 @@
 		</p> 
 	<% end %>	
 
+=======
+	<p>
+		<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-lg" %> 
+		<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+		<%= link_to "Sign in with Facebook", user_omniauth_authorize_path(:facebook) %>
+	</p> 
+>>>>>>> 7812b96b22d2c928c78e330cb8aa67946a445c04
 
 </div>
