@@ -6,4 +6,5 @@ class User < ActiveRecord::Base
          :omniauthable
          :confirmable
          :omniauthable
+   has_many :pins
 end
