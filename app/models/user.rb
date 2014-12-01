@@ -7,6 +7,7 @@ class User < ActiveRecord::Base
          :confirmable
          :omniauthable
 
-   has_many :pins
+   has_many :pins, dependent: :destroy
+
    validates :username, presence: true, uniqueness: true
 end
