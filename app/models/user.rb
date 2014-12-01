@@ -6,5 +6,7 @@ class User < ActiveRecord::Base
          :omniauthable
          :confirmable
          :omniauthable
+
    has_many :pins
+   validates :username, presence: true, uniqueness: true
 end

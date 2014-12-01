@@ -8,6 +8,8 @@
       <div class ="panel-body">
         <%= pin.description %>
         <strong><%= pin.user.email if pin.user %></strong>
+        <strong><%= pin.user.username if pin.user %></strong>
+
 
         <% if pin.user == current_user %>
           <div class="actions">
